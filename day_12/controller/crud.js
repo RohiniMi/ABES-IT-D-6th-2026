@@ -18,17 +18,17 @@ export const getUser = async (req, res) => {
     }
 }
 
-export const changePass = (req,res) => {
+export const changePass = (req, res) => {
     try {
 
     } catch (error) {
-
+        res.status(500).json({ message: "Server error" });
     }
 }
-export const deleteUser = (req,res) => {
+export const deleteUser = (req, res) => {
     try {
 
     } catch (error) {
-
+        res.status(500).json({ message: "Server error" });
     }
 }
